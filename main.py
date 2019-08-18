@@ -165,16 +165,3 @@ elif(clusteringType == 'DBScan'):
     alphaOrd = 0
     alphaOrd = detector.calculateOrdinaryAlpha(DBSData, newDBSData)
     print("Is it fraud using DBScan? --> ", detector.fraudEvaluation(alphaOrd, newDBSData))
-
-
-
-
-
-
-
-
-
-
-
-
-
